@@ -1,0 +1,37 @@
+[
+  {
+    "phrase": "Adult site blocked",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "is not allowed on this network",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "This service is powered by OpenDNS with data from St. Bernard's iGuard",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "This site was categorized as",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "block.opendns.com",
+    "score": 100,
+    "forest": [
+
+    ]
+  }
+]

@@ -1,0 +1,3530 @@
+[
+  {
+    "phrase": "sportsillustrated",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "si.com",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "espn",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "skate",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "stating",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "sports scores",
+    "score": 25,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "season pass",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "season ticket",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tournament",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "team player",
+    "score": 10,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "dressing room",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "teammate",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "train with the team",
+    "score": 35,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "spring training",
+    "score": 35,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "professional player",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "national team",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "regionals",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "midfield",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "outfield",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "outfitter",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "clubhouse",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "club member",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "club due",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "club fee",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nfl",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cfl",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rink",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nba",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wnba",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "ncaa",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nhl",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lpga",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "pga",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tpc",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wta",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "mls",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "uefa",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "atp",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "home match",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gymnasium",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "team tryout",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "players association",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "trading deadline",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "global cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "world cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gladiator",
+    "score": 65,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "referee",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "basketball",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "football",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "soccer",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "volleyball",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "badminton",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hockey",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lacrosse",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "fox hunting",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rugby",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "baseball",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "boxing",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wrestling",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tennis",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "racquetball",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cricket",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "snooker",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "motorsport",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "athletics",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "playoff",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hall of fame",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "pro bowl",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "pre-game",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "half-time",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "halftime",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "super bowl",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "home run",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "badminton",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "racket",
+    "score": 10,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "shuttlecock",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "billiards",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bowling",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "boxing",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cricket",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cycling",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hockey",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "figure skating",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gymnastics",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lacrosse",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "polo",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rodeo",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rowing",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rugby",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "marathon",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "softball",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "squash",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "swim",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "diving",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "diver",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "triathlon",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "stadium",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "volleyball",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "weightlift",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wrestling",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hollywood award",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kiteboard",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "aberdeen ironbirds",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "aguascalientes rieleros",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "aiken foxhounds",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "akron aeros",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "albuquerque isotopes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "alexandria aces",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "altoona curve",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "amarillo dillas",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "anderson joes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "angel�polis tigres",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "arkansas travelers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "arizona league",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "asheville tourists",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "atlantic city surf",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "auburn doubledays",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "augusta greenjackets",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bakersfield blaze",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "batavia muckdogs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "beloit snappers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "billings mustangs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "binghamton mets",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "birmingham barons",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bluefield orioles",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "boise hawks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bowie baysox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bradenton juice",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "brevard county manatees",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bridgeport bluefish",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bristol white sox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "brockton rox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "brooklyn cyclones",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "buffalo bisons",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "burlington bees",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "burlington royals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "calgary vipers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "camden riversharks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "campeche piratas",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "carolina mudcats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "casper rockies",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cedar rapids kernels",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "charleston riverdogs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "charlotte knights",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "charlotte county redfish",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "chattanooga lookouts",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "chico outlaws",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "chillicothe paints",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "clearwater threshers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "clinton lumberkings",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "coastal bend aviators",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "colorado springs sky sox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "columbus catfish",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "columbus clippers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "connecticut defenders",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "corpus christi hooks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "danville braves",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "dayton dragons",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "daytona cubs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "delmarva shorebirds",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "dunedin blue jays",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "durham bulls",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "edinburg coyotes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "edmonton cracker-cats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "el paso diablos",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "elizabethton twins",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "erie seawolves",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "eugene emeralds",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "evansville otters",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "everett aquasox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "fargo-moorhead redhawks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "florence freedom",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "fort myers miracle",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "fort wayne wizards",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "fort worth cats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "frederick keys",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "fresno grizzlies",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "frisco roughriders",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "fullerton flyers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gary southshore railcats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gateway grizzlies",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "grand canyon rafters",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "great falls white sox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "great lakes loons",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "greeneville astros",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "greensboro grasshoppers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "greenville drive",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast braves",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast dodgers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast indians",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast marlins",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast nationals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast phillies",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast pirates",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast red",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast tigers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast twins",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gulf coast yankees",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hagerstown suns",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "harrisburg senators",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "helena brewers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hickory crawdads",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "high desert mavericks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "honolulu sharks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hudson valley renegades",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "huntsville stars",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "idaho falls chukars",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "indianapolis indians",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "inland empire 66ers of san bernardino",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "iowa cubs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "jacksonville suns",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "jamestown jammers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "johnson city cardinals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "joliet jackhammers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "jupiter hammerheads",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kalamazoo kings",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kane county cougars",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kannapolis intimidators",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kansas city t-bones",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kingsport mets",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kinston indians",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "laguna vaqueros",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lake county captains",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lake elsinore storm",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lakeland flying tigers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lakewood blueclaws",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lancaster barnstormers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lancaster jethawks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lansing lugnuts",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "laredo broncos",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "las vegas 51s",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lexington legends",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lincoln saltdogs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "long beach armada",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "long island ducks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "louisville bats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lowell spinners",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lynchburg hillcats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "macon music",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "mahoning valley scrappers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "maryland road warriors",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "memphis redbirds",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "mesa solar sox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "m�xico diablos rojos",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "midland rockhounds",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "mississippi braves",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "missoula osprey",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "mobile baybears",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "modesto nuts",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "monclova acereros",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "monterrey sultanes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "montgomery biscuits",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "myrtle beach pelicans",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nashua pride",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nashville sounds",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new britain rock cats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new hampshire fisher cats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new haven county cutters",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new jersey jackals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new orleans Zephyrs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "newark bears",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "norfolk tides",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "north shore honu",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "north shore spirit",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "oaxaca guerreros",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "ogden raptors",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "oklahoma redhawks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "omaha royals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "oneonta tigers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "orem owlz",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "ottawa lynx",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "palm beach cardinals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "pawtucket red sox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "pensacola pelicans",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "peoria chiefs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "peoria javelinas",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "peoria saguaros",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "phoenix desert dogs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "portland beavers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "portland sea dogs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "potomac nationals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "princeton devil rays",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "puebla pericos",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "Quebec capitales",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rancho cucamonga Quakes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "reading phillies",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "reno silver sox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "richmond braves",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rio grande valley whitewings",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "river city rascals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rochester red wings",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rockford riverhawks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rome braves",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "round rock express",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "sacramento river cats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "salem avalanche",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "salem-keizer volcanoes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "salt lake bees",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "saltillo saraperos",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "san angelo colts",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "san antonio missions",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "san diego surf dawgs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "san jose giants",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "san luis tuneros",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "sarasota reds",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "savannah sand gnats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "schaumburg flyers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "scranton/wilkes-barre red barons",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "slippery rock sliders",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "shreveport sports",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "sioux city explorers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "sioux falls canaries",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "somerset patriots",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "south bend silver hawks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "south georgia peanuts",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "southern illinois miners",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "southern maryland blue crabs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "spokane indians",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "springfield cardinals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "state college spikes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "staten island yankees",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "stockton ports",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "st. george roadrunners",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "st. joe blacksnakes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "st. lucie mets",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "st. paul saints",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "surprise scorpions",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "sussex skyhawks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "swing of the Quad cities",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "syracuse chiefs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tabasco olmecas",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tacoma rainiers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tampa yankees",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tennessee smokies",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tijuana portros",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "toledo mud hens",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "traverse city beach bums",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "trenton thunder",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tri-city dust devils",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tri-city valley cats",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tucson sidewinders",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tulsa drillers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "utica blue sox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "vancouver canadians",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rojos del �guila de veracruz",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "vermont lake monsters",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "vero beach dodgers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "visalia oaks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "waikiki beach boys",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "washington wild things",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "west michigan whitecaps",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "west oahu canefires",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "west tenn diamond jaxx",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "west virginia power",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wichita wranglers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "williamsport crosscutters",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wilmington blue rocks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "windy city thunderbolts",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "winnipeg goldeyes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "winston-salem warthogs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wisconsin timber rattlers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "worcester tornadoes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "yakima bears",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "york revolution",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "yucat�n leones",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "yuma scorpions",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "atlanta thrashers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "boston bruins",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "buffalo sabres",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "calgary flames",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "carolina hurricanes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "chicago blackhawks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "colorado avalanche",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "columbus blue jackets",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "dallas stars",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "detroit red wings",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "edmonton oilers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "florida panthers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "los angeles kings",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "minnesota wild",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "montreal canadiens",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nashville predators",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new jersey devils",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new york islanders",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new york rangers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "ottawa senators",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "philadelphia flyers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "phoenix coyotes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "pittsburgh penguins",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "san jose sharks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "st. louis blues",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "stanley cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tampa bay lightning",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "toronto maple leafs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "vancouver canucks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "washington capitals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "arizona cardinals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "atlanta falcons",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "baltimore colts",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "baltimore ravens",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "boston patriots",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "buffalo bills",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "carolina panthers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "chicago bears",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cincinnati bengals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cleveland browns",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "dallas cowboys",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "dallas texans",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "denver broncos",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "detroit lions",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "green bay packers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "houston oilers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "houston texans",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "indianapolis colts",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "jacksonville jaguars",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kansas city chiefs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "los angeles chargers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "los angeles raiders",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "los angeles rams",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "miami dolphins",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "minnesota vikings",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new england patriots",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new orleans saints",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new york giants",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new york jets",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new york titans",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "oakland raiders",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "philadelphia eagles",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "phoenix cardinals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "pittsburgh steelers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "san diego chargers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "san francisco 49ers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "seattle seahawks",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "st. louis cardinals",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "st. louis rams",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tampa bay buccaneers",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tennessee titans",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "washington redskins",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "vuitton cup",
+    "score": 35,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "valencia",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "boat race",
+    "score": 35,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "yacht race",
+    "score": 35,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "windsurf",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "outboard",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "canoeing",
+    "score": 10,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "rafting",
+    "score": 15,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kayak",
+    "score": 25,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "yacht club",
+    "score": 25,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "scottish premier league",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "barclays premiership",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "carling cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "scottish league cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "club deportivo chivas usa",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "league champion",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "fa cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lg cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "fc dallas",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "houston dynamo",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kansas city wizards",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "los angeles galaxy",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new england revolution",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new york red bulls",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "portuguese premier league",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "real salt lake",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "san jose earthquakes",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "spanish primera liga",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "scottish cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "celtic cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "african nations cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "australian open",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "davis cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "federation cup",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "french open",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wimbledon",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "champions tour",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "golf course",
+    "score": 35,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "golf club",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "golf ball",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "golf play",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "golf swing",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "golf score",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "golf news",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "golfer",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "golfing",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "european tour",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nationwide tour",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "u.s. open",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "u.s. senior open",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "youth clinics",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nhra",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "irl",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "iroc",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wrc",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "drag racing",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "horse racing",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "car racing",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "auto racing",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "motorcycle racing",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "formula 1",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "indy car",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nascar",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "olympic games",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "olympic team",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "olympic",
+    "score": 15,
+    "forest": [
+
+    ]
+  }
+]

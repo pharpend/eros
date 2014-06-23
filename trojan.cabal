@@ -1,7 +1,7 @@
 name:                trojan
 version:             0.0.0.0
 synopsis:            A text blocker.
-description:         A text blocker, using DansGuardian's wonderful phraselist.
+description:         A text blocker, using DansGuardian's wonderful phaselist.
 homepage:            https://txtrjn.valkyrian.com/
 license:             BSD3
 license-file:        LICENSE
@@ -11,14 +11,29 @@ copyright:           Copyright © 2014 Valkyrian Industries
 category:            Text
 build-type:          Simple
 extra-source-files:
-    res/phraselist-ugly.json
+    res/phraselists/
 cabal-version:       >=1.10
 
 library
-  -- exposed-modules:
+  exposed-modules:
+      Text.Trojan.Phrase
   -- other-modules:       
   -- other-extensions:    
   build-depends:
-    base >=4.7 && <4.8
+      aeson
+    , base >=4.7 && <4.8
+    , bytestring
+    , containers
+    , text
   hs-source-dirs:      src/
   default-language:    Haskell2010
+
+Test-Suite test-phrase
+  type: exitcode-stdio-1.0
+  main-is: test/phrase.hs
+  build-depends:
+      aeson
+    , base
+    , bytestring
+    , containers
+    , trojan

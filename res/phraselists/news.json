@@ -1,0 +1,492 @@
+[
+  {
+    "phrase": "cnn.com",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "local news",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "top stories",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "in the news",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bbc news",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "week at a glance",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "week in pictures",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "top stories",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "in pictures",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "news headlines",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "breaking headlines",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "newscast",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "news report",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "national news",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "news article",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "breaking news",
+    "score": 70,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "latest news",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "business news",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "national news",
+    "score": 70,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "canadian press",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "reuters",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "associated press",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "united press international",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "pbs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nbc",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cbs",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "co-write",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "co-producer",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "ombudsperson",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "ombudsman",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "news network",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "ap network",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "searchable news",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "news site",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "newscast",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "current event",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "press associat",
+    "score": 65,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "story highlight",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "news coverage",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "current news",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "world news",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "post news",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "arab news",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "times news",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "timesnews",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "daily news",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "dailynews",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "worldnews",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "global news",
+    "score": 45,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "journalis",
+    "score": 25,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "investigative journalism",
+    "score": 125,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "news archive",
+    "score": 65,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "entertainment news",
+    "score": 75,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "entertainment directory",
+    "score": 75,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "newspaper",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "new york times",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "ny times",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "la times",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "post dispatch",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "washington times",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "boston globe",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "boston herald",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bbc news",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tehran times",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "atlanta journal",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "morning herald",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "post gazette",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "post-gazette",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "live video",
+    "score": 75,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "video feed",
+    "score": 75,
+    "forest": [
+
+    ]
+  }
+]

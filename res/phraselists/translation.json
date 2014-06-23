@@ -1,0 +1,388 @@
+[
+  {
+    "phrase": "translate",
+    "score": 30,
+    "forest": [
+      [
+        {
+          "phrase": "web page",
+          "score": 40,
+          "forest": [
+
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "phrase": "translation service",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "text translator",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "translate text",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "instantly translates",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "free translation",
+    "score": 150,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "web translator",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "translation engine",
+    "score": 150,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "surf and translate",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "translation direction",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "machine translation",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "babel fish",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "babelfish",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "freetranslation",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "worldlingo",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "foreignword.com",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "beolingus",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "foxlingo",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "tranexp.com",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "betranslated",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "systran",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "intertran",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "imtranslator.com",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "linguamatix",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "lingvo",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "online-translator",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "opentrad.org",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "translendium",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "apertium",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "appliedlanguage.com",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "langenberg",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "click2translate",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to spanish",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "spanish to english",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to german",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to russian",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to japanese",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to chinese",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to korean",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to greek",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to italian",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to dutch",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "english to portuguese",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "japanese to english",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "russian to english",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "chinese to english",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "korean to english",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "german to english",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "traduction",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "traducteur",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "traduire",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "translatica",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "translendium",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "traductor",
+    "score": 50,
+    "forest": [
+
+    ]
+  }
+]

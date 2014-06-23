@@ -1,0 +1,410 @@
+[
+  {
+    "phrase": "phproxy",
+    "score": 100,
+    "forest": [
+      [
+        {
+          "phrase": "post",
+          "score": 150,
+          "forest": [
+
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "phrase": "FreeProxyTemplates",
+    "score": 200,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "proxnetwork",
+    "score": 200,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "remove_scripts",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "glype",
+    "score": 150,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "__proxy_url",
+    "score": 150,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "__proxy_action",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "redirect_browse",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "zelune",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "proxy_url",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "proxy_options",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "proxyshout",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "proxy.com",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "surrogafy",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "surrogafier",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "start browsing through this cgi-based proxy by entering a url below",
+    "score": 200,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "remove ads",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hide referrer information",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "show url entry form",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "remove all cookies",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "recommended for anonymity",
+    "score": 60,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "remove all scripts",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "dmirror",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nph-proxy",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "nph-pro",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cgiproxy",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "location via proxy",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "cecid",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "censorship circumvention device",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "remove banned words completely",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "filter banned words",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "please enter url to access",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "arbitroweb",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "keep your identity hidden",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "high anonymity",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "proxy",
+    "score": 5,
+    "forest": [
+      [
+        {
+          "phrase": "Include mini URL",
+          "score": 50,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "Remove client-side scripting",
+          "score": 50,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "Strip page title",
+          "score": 50,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "encode url",
+          "score": 50,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "allow cookies",
+          "score": 50,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "enter site url",
+          "score": 150,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "encrypt urls",
+          "score": 150,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "remove scripts",
+          "score": 150,
+          "forest": [
+
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "phrase": "proxies",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "public prox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "proxy list",
+    "score": 20,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "unblock websites",
+    "score": 40,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hacking dansguardian",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hacking dans guardian",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hack dansguardian",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bypassing dansguardian",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bypassing dans guardian",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bypass dansguardian",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "bypass web filter",
+    "score": 30,
+    "forest": [
+
+    ]
+  }
+]

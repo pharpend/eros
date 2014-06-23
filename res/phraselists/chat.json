@@ -1,0 +1,184 @@
+[
+  {
+    "phrase": "javachat",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "webbchat",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "webbtjatt",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "webchat",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "chatkamer",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "chatroom",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "irc",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "ircd",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "javachat",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "javatjatt",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "gaim",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "icq",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "msn2go",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "aimexpress",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "wbmsn",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "iloveim",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "kiwibox",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "webmessenger",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "e-messenger",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "web2messenger",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "onlinemessenger",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "msnger",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "jpager",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "easymessage",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "trillian",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "instant messenger",
+    "score": 10,
+    "forest": [
+
+    ]
+  }
+]

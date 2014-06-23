@@ -1,0 +1,188 @@
+[
+  {
+    "phrase": "cracking",
+    "score": 10,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "got warez?",
+    "score": 50,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "hacking",
+    "score": 10,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "serials 2000",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "warez",
+    "score": 10,
+    "forest": [
+      [
+        {
+          "phrase": "appz",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "crack",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "download",
+          "score": 20,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "free",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "ftp",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "gamez",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "hacks",
+          "score": 20,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "hackz",
+          "score": 20,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "illegal",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "patch",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "pirate",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+
+      ],
+      [
+        {
+          "phrase": "serial number",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "serials",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "serialz",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ],
+      [
+        {
+          "phrase": "underground",
+          "score": 10,
+          "forest": [
+
+          ]
+        }
+      ]
+    ]
+  },
+  {
+    "phrase": "warez king",
+    "score": 30,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "warez monkey",
+    "score": 10,
+    "forest": [
+
+    ]
+  }
+]

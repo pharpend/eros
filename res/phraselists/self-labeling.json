@@ -1,0 +1,23 @@
+[
+  {
+    "phrase": "content=\"RTA-5042-1996-1400-1577-RTA\"",
+    "score": 200,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "meta name=\"Rating\" content=\"Mature\"",
+    "score": 100,
+    "forest": [
+
+    ]
+  },
+  {
+    "phrase": "meta name=\"Rating\" content=\"Restricted\"",
+    "score": 200,
+    "forest": [
+
+    ]
+  }
+]

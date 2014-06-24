@@ -1,5 +1,5 @@
 -- |
--- Module       : Text.Trojan.Phrase
+-- Module       : Text.Eros.Phrase
 -- Description  : Module to get at the various phrase lists
 -- Copyright    : Copyright © 2014 Valkyrian Industries
 -- License      : BSD3
@@ -10,14 +10,14 @@
 -- Pure interface for phraselists.
 -- 
 
-module Text.Trojan.Phrase where
+module Text.Eros.Phrase where
 
 import Data.Ord (comparing)
 import Data.Text (Text)
 import Data.Tree
 
 -- |A Phrase is a piece of Text, with an int representing its
--- weight. These are the used internally within 'trojan', in
+-- weight. These are the used internally within 'eros', in
 -- 'Tree's. 
 data Phrase = Phrase { phrase :: Text
                      , score  :: Int

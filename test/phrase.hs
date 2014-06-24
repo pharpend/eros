@@ -3,7 +3,7 @@ module Main where
 import Data.Aeson
 import qualified Data.ByteString.Lazy as L
 import System.Exit
-import Text.Trojan.Phraselist
+import Text.Eros.Phraselist
 
 dcd :: L.ByteString -> Either String [PAT]
 dcd = eitherDecode

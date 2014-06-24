@@ -2,7 +2,7 @@
 {-# LANGUAGE OverloadedStrings #-}
 
 -- |
--- Module       : Text.Trojan.Phraselist
+-- Module       : Text.Eros.Phraselist
 -- Description  : A module for Tropical whatever
 -- Copyright    : Copyright © 2014 Valkyrian Industries
 -- License      : BSD3
@@ -12,7 +12,7 @@
 --
 -- If you want to make your own phraselist, you need to write a JSON
 -- file, in accordance with the
--- <https://gitlab.com/pharpend/trojan/raw/master/res/phraselist-schema.json schema>.
+-- <https://gitlab.com/pharpend/eros/raw/master/res/phraselist-schema.json schema>.
 -- Once you do that, make a data type for your phraselist.
 -- Make your data type an instance of 'Phraselist', and you're good to
 -- go.
@@ -33,26 +33,26 @@
 -- file.
 -- 
 
-module Text.Trojan.Phraselist where
+module Text.Eros.Phraselist where
 
 import Control.Applicative ((<$>), (<*>))
 import Control.Monad (mzero, sequence)
 import Data.Aeson
 import Data.Text (Text)
 import Data.Tree
-import Text.Trojan.Phrase
-import Paths_trojan
+import Text.Eros.Phrase
+import Paths_eros
 
 class Phraselist t where
   phraselistPath :: t -> IO FilePath
 
 -- |The phraselists in @res/@. Each of these constructors correspond
 -- to one of the files
--- <https://gitlab.com/pharpend/trojan/tree/master/res/phraselists-pretty here>.
+-- <https://gitlab.com/pharpend/eros/tree/master/res/phraselists-pretty here>.
 -- 
 -- Gitlab has a terrible interface, so I won't provide links to each
 -- one of them.
-data TrojanList = Chat
+data ErosList = Chat
                 | Conspiracy
                 | DrugAdvocacy
                 | Forums
@@ -82,8 +82,8 @@ data TrojanList = Chat
                 | Webmail
 
 -- |A list of phraselists we provide.
-trojanLists :: [TrojanList]
-trojanLists = [ Chat
+erosLists :: [ErosList]
+erosLists = [ Chat
               , Conspiracy
               , DrugAdvocacy
               , Forums
@@ -114,11 +114,11 @@ trojanLists = [ Chat
               ]
 
 -- |A list of the paths to the phraselists we provide.
-trojanListPaths :: IO [FilePath]
-trojanListPaths = sequence $ map phraselistPath trojanLists
+erosListPaths :: IO [FilePath]
+erosListPaths = sequence $ map phraselistPath erosLists
 
 -- These are the data paths for the various PhraseLists
-instance Phraselist TrojanList where
+instance Phraselist ErosList where
   phraselistPath Chat            = getDataFileName "res/phraselists-ugly/chat.json"
   phraselistPath Conspiracy      = getDataFileName "res/phraselists-ugly/conspiracy.json"
   phraselistPath DrugAdvocacy    = getDataFileName "res/phraselists-ugly/drug-advocacy.json"
@@ -161,7 +161,7 @@ data PhraseAlmostTree = PhraseAlmostTree { patPhrase :: Text
 type PAT = PhraseAlmostTree
 
 -- |You can read the
--- <https://gitlab.com/pharpend/trojan/raw/master/res/phraselist-schema.json JSON schema>
+-- <https://gitlab.com/pharpend/eros/raw/master/res/phraselist-schema.json JSON schema>
 -- to see how this works.
 instance FromJSON PAT where
   parseJSON (Object v) = PhraseAlmostTree

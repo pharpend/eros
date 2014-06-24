@@ -10,9 +10,10 @@
 
 module Text.Eros.Phrase where
 
-import Data.Ord (comparing)
-import Data.Text.Lazy (Text)
-import Data.Tree
+import qualified Data.Map as M
+import           Data.Ord (comparing)
+import           Data.Text.Lazy (Text)
+import           Data.Tree
 
 -- |A Phrase is a piece of Text, with an int representing its
 -- weight. These are the used internally within 'eros', in
@@ -47,7 +48,8 @@ forestPhrases = map forestPhrase
 forestPhrase :: PhraseTree -> Text
 forestPhrase (Node phr subf) = phrase phr
 
--- |Given a list of 'PhraseTree's, return an associative list (alist)
--- of each phrase with the appropriate tree.
-phraseTreeAlist :: [PhraseTree] -> [(Text, PhraseTree)]
-phraseTreeAlist frs = zip (forestPhrases frs) frs
+-- |Given a list of 'PhraseTree's, return a map of each phrase with
+-- the appropriate tree.
+phraseTreeMap :: [PhraseTree] -> M.Map Text PhraseTree
+phraseTreeMap = M.fromList . phraseTreeAlist
+  where phraseTreeAlist frs = zip (forestPhrases frs) frs

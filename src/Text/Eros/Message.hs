@@ -10,15 +10,15 @@
 
 module Text.Eros.Message where
 
-import Text.Eros.Phrase
-import Text.Eros.Phraselist
+import qualified Data.Map as M
 import qualified Data.Text.Lazy as L
+import           Text.Eros.Phrase
+import           Text.Eros.Phraselist
 
 -- |A type alias for text.
 type Message = L.Text
 
 -- Check each word against a 'PhraseForest'.
 checkWords :: Message -> PhraseForest -> [Maybe PhraseTree]
-checkWords text forest = map (\word -> lookup word forestAlist) (L.words text)
-  where forestAlist = phraseTreeAlist forest
-  
+checkWords text forest = map (\word -> M.lookup word forestMap) (L.words text)
+  where forestMap = phraseTreeMap forest

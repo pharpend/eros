@@ -3,15 +3,13 @@
     "phrase": "translate",
     "score": 30,
     "forest": [
-      [
-        {
-          "phrase": "web page",
-          "score": 40,
-          "forest": [
+      {
+        "phrase": "web page",
+        "score": 40,
+        "forest": [
 
-          ]
-        }
-      ]
+        ]
+      }
     ]
   },
   {

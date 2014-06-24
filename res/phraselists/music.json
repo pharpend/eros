@@ -3,213 +3,167 @@
     "phrase": "music",
     "score": 5,
     "forest": [
-      [
-        {
-          "phrase": "dirty",
-          "score": 10,
-          "forest": [
+      {
+        "phrase": "dirty",
+        "score": 10,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "gangster",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "gangster",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "gangsta",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "gangsta",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "hiphop",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "hiphop",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "hip-hop",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "hip-hop",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "country",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "country",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "punk",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "punk",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "soul",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "soul",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "pop",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "pop",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "record label",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "record label",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "randb",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "randb",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "r&b",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "r&b",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "dirty",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "dirty",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "rap",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "rap",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "rapper",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "rapper",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "gangsta",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "gangsta",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "download",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "download",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "free",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "free",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "video",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "video",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "player",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "player",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "producer",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "producer",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "promotion",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "promotion",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "album",
-          "score": 20,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "album",
+        "score": 20,
+        "forest": [
 
-          ]
-        }
-      ]
+        ]
+      }
     ]
   },
   {

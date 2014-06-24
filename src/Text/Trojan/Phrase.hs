@@ -40,7 +40,7 @@ type PhraseList = [PhraseTree]
 
 data PhraseAlmostTree = PhraseAlmostTree { patPhrase :: Text
                                          , patScore  :: Int
-                                         , patForest :: [[PhraseAlmostTree]]
+                                         , patForest :: [PhraseAlmostTree]
                                          }
   deriving (Show, Read)
 
@@ -51,7 +51,7 @@ instance FromJSON PAT where
     <$> v .: "phrase"
     <*> v .: "score"
     <*> v .: "forest"
-  parseJSON a = fail $ show a
+  parseJSON _ = fail $ "Must be a PAT"
 
 
 -- |The score of the tree is the sum of the scores of its nodes
@@ -59,8 +59,5 @@ treeScore :: PhraseTree -> Int
 treeScore = sum . map score . flatten
 
 fromPAT :: PAT -> PhraseTree
-fromPAT (PhraseAlmostTree p s f) =
-  Node (Phrase p s) $ map fromPATs f
+fromPAT (PhraseAlmostTree p s f) = Node (Phrase p s) $ map fromPAT f
 
-fromPATs :: [PAT] -> [PhraseTree]
-fromPATs = map fromPAT

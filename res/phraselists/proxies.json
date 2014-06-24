@@ -3,15 +3,13 @@
     "phrase": "phproxy",
     "score": 100,
     "forest": [
-      [
-        {
-          "phrase": "post",
-          "score": 150,
-          "forest": [
+      {
+        "phrase": "post",
+        "score": 150,
+        "forest": [
 
-          ]
-        }
-      ]
+        ]
+      }
     ]
   },
   {
@@ -256,78 +254,62 @@
     "phrase": "proxy",
     "score": 5,
     "forest": [
-      [
-        {
-          "phrase": "Include mini URL",
-          "score": 50,
-          "forest": [
+      {
+        "phrase": "Include mini URL",
+        "score": 50,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "Remove client-side scripting",
-          "score": 50,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "Remove client-side scripting",
+        "score": 50,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "Strip page title",
-          "score": 50,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "Strip page title",
+        "score": 50,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "encode url",
-          "score": 50,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "encode url",
+        "score": 50,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "allow cookies",
-          "score": 50,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "allow cookies",
+        "score": 50,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "enter site url",
-          "score": 150,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "enter site url",
+        "score": 150,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "encrypt urls",
-          "score": 150,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "encrypt urls",
+        "score": 150,
+        "forest": [
 
-          ]
-        }
-      ],
-      [
-        {
-          "phrase": "remove scripts",
-          "score": 150,
-          "forest": [
+        ]
+      },
+      {
+        "phrase": "remove scripts",
+        "score": 150,
+        "forest": [
 
-          ]
-        }
-      ]
+        ]
+      }
     ]
   },
   {

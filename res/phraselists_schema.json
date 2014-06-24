@@ -1,0 +1,27 @@
+{
+  "name": "PhraseList",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "phrase": {
+        "type": "string",
+        "description": "the phrase",
+        "required": true
+      },
+      "score": {
+        "type": "number",
+        "description": "The phrase's score.",
+        "required": true
+      },
+      "forest": {
+        "type": "array",
+        "description": "Subsequent phrases.",
+        "required": true,
+        "items": {
+          "type": "object"
+        }
+      }
+    }
+  }
+}

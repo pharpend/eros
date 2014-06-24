@@ -53,65 +53,65 @@ class Phraselist t where
 -- Gitlab has a terrible interface, so I won't provide links to each
 -- one of them.
 data ErosList = Chat
-                | Conspiracy
-                | DrugAdvocacy
-                | Forums
-                | Gambling
-                | Games
-                | Gore
-                | IdTheft
-                | IllegalDrugs
-                | Intolerance
-                | LegalDrugs
-                | Malware
-                | Music
-                | News
-                | Nudism
-                | Peer2Peer
-                | Personals
-                | Pornography
-                | Proxies
-                | SecretSocieties
-                | SelfLabeling
-                | Sport
-                | Translation
-                | UpstreamFilter
-                | Violence
-                | WarezHacking
-                | Weapons
-                | Webmail
+              | Conspiracy
+              | DrugAdvocacy
+              | Forums
+              | Gambling
+              | Games
+              | Gore
+              | IdTheft
+              | IllegalDrugs
+              | Intolerance
+              | LegalDrugs
+              | Malware
+              | Music
+              | News
+              | Nudism
+              | Peer2Peer
+              | Personals
+              | Pornography
+              | Proxies
+              | SecretSocieties
+              | SelfLabeling
+              | Sport
+              | Translation
+              | UpstreamFilter
+              | Violence
+              | WarezHacking
+              | Weapons
+              | Webmail
 
 -- |A list of phraselists we provide.
 erosLists :: [ErosList]
 erosLists = [ Chat
-              , Conspiracy
-              , DrugAdvocacy
-              , Forums
-              , Gambling
-              , Games
-              , Gore
-              , IdTheft
-              , IllegalDrugs
-              , Intolerance
-              , LegalDrugs
-              , Malware
-              , Music
-              , News
-              , Nudism
-              , Peer2Peer
-              , Personals
-              , Pornography
-              , Proxies
-              , SecretSocieties
-              , SelfLabeling
-              , Sport
-              , Translation
-              , UpstreamFilter
-              , Violence
-              , WarezHacking
-              , Weapons
-              , Webmail
-              ]
+            , Conspiracy
+            , DrugAdvocacy
+            , Forums
+            , Gambling
+            , Games
+            , Gore
+            , IdTheft
+            , IllegalDrugs
+            , Intolerance
+            , LegalDrugs
+            , Malware
+            , Music
+            , News
+            , Nudism
+            , Peer2Peer
+            , Personals
+            , Pornography
+            , Proxies
+            , SecretSocieties
+            , SelfLabeling
+            , Sport
+            , Translation
+            , UpstreamFilter
+            , Violence
+            , WarezHacking
+            , Weapons
+            , Webmail
+            ]
 
 -- |A list of the paths to the phraselists we provide.
 erosListPaths :: IO [FilePath]

@@ -6,8 +6,8 @@ homepage:            https://txtrjn.valkyrian.com/
 license:             BSD3
 license-file:        LICENSE
 author:              Peter Harpending
-maintainer:          Peter Harpending <peter@valkyrian.com>
-copyright:           Copyright © 2014 Valkyrian Industries
+maintainer:          Peter Harpending <pharpend2@gmail.com>
+copyright:           Copyright (c) 2014, Peter Harpending.
 category:            Text
 build-type:          Simple
 data-files:

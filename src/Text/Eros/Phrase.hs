@@ -1,9 +1,9 @@
 -- |
 -- Module       : Text.Eros.Phrase
 -- Description  : Module to get at the various phrase lists
--- Copyright    : Copyright © 2014 Valkyrian Industries
+-- Copyright    : Copyright (c) 2014, Peter Harpending.
 -- License      : BSD3
--- Maintainer   : Peter Harpending <peter@valkyrian.com>
+-- Maintainer   : Peter Harpending <pharpend2@gmail.com>
 -- Stability    : experimental
 -- Portability  : archlinux
 -- 

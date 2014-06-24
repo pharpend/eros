@@ -1,19 +1,17 @@
 -- |
 -- Module       : Text.Eros.Phrase
--- Description  : Module to get at the various phrase lists
--- Copyright    : Copyright (c) 2014, Peter Harpending.
+-- Description  : Pure interface for 'Phrase's and 'PhraseTree's.
+-- Copyright    : 2014, Peter Harpending.
 -- License      : BSD3
 -- Maintainer   : Peter Harpending <pharpend2@gmail.com>
 -- Stability    : experimental
 -- Portability  : archlinux
 -- 
--- Pure interface for phraselists.
--- 
 
 module Text.Eros.Phrase where
 
 import Data.Ord (comparing)
-import Data.Text (Text)
+import Data.Text.Lazy (Text)
 import Data.Tree
 
 -- |A Phrase is a piece of Text, with an int representing its
@@ -29,12 +27,24 @@ instance Eq Phrase where
   a /= b = (score a) /= (score b)
 
 instance Ord Phrase where
-  -- |To compare Phrases, just compare their scores
+  -- |To compare 'Phrases', just compare their 'score's
   compare = comparing score
 
--- |A tree of Phrases
+-- |A 'Tree' of 'Phrase's
 type PhraseTree = Tree Phrase
+-- |A 'Forest' of 'Phrase's
+type PhraseForest = Forest Phrase
 
--- |The score of the tree is the sum of the scores of its nodes.
+-- |The 'score' of the 'PhraseTree' is the sum of the 'score's of its 'Node's.
 treeScore :: PhraseTree -> Int
 treeScore = sum . map score . flatten
+
+-- |Given a list of 'PhraseTree's, return the top-level 'phrase's.
+forestPhrases :: PhraseForest -> [Phrase]
+forestPhrases = map forestPhrase
+
+-- |Given a 'PhraseTree', return the top-level 'phrase'.
+forestPhrase :: PhraseTree -> Phrase
+forestPhrase (Node phr subf) = phr
+
+

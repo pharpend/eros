@@ -1,9 +1,9 @@
 -- |
 -- Module       : Text.Eros.Skel
 -- Description  : Description
--- Copyright    : Copyright (c) 2014 Valkyrian Industries
+-- Copyright    : 2014, Peter Harpending.
 -- License      : BSD3
--- Maintainer   : Peter Harpending <peter@valkyrian.com>
+-- Maintainer   : Peter Harpending <pharpend2@gmail.com>
 -- Stability    : experimental
 -- Portability  : archlinux
 --

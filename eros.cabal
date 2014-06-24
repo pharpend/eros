@@ -1,13 +1,23 @@
 name:                eros
 version:             0.0.0.0
 synopsis:            A text censorship library.
-description:         A text blocker, using DansGuardian's wonderful phaselist.
+description:
+  A Haskell library for censoring text, using
+  <http://contentfilter.futuragts.com/phraselists/ DansGuardian phraselists>.
+
+  I converted the phraselists into JSON. You can view the converted phraselists
+  <https://github.com/pharpend/eros/tree/master/res/phraselists-pretty here>.
+
+  There exist compressed versions, for use within your code. You can see the
+  compressed versions
+  <https://github.com/pharpend/eros/tree/master/res/phraselists-ugly here>.
+
 homepage:            https://eros.valkyrian.com/
 license:             BSD3
 license-file:        LICENSE
 author:              Peter Harpending
 maintainer:          Peter Harpending <pharpend2@gmail.com>
-copyright:           Copyright (c) 2014, Peter Harpending.
+copyright:           2014, Peter Harpending.
 category:            Text
 build-type:          Simple
 data-files:
@@ -45,6 +55,7 @@ cabal-version:       >=1.10
 
 library
   exposed-modules:
+      Text.Eros.Message
       Text.Eros.Phrase
       Text.Eros.Phraselist
   -- other-modules:       

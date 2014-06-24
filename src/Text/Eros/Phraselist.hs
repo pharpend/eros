@@ -3,8 +3,8 @@
 
 -- |
 -- Module       : Text.Eros.Phraselist
--- Description  : A module for Tropical whatever
--- Copyright    : Copyright (c) 2014, Peter Harpending.
+-- Description  : A module for dealing with Phraselists.
+-- Copyright    : 2014, Peter Harpending.
 -- License      : BSD3
 -- Maintainer   : Peter Harpending <pharpend2@gmail.com>
 -- Stability    : experimental
@@ -12,7 +12,7 @@
 --
 -- If you want to make your own phraselist, you need to write a JSON
 -- file, in accordance with the
--- <https://gitlab.com/pharpend/eros/raw/master/res/phraselist-schema.json schema>.
+-- <https://raw.githubusercontent.com/pharpend/eros/master/res/phraselist-schema.json schema>.
 -- Once you do that, make a data type for your phraselist.
 -- Make your data type an instance of 'Phraselist', and you're good to
 -- go.
@@ -32,23 +32,28 @@
 -- Don't forget to add @mylist.json@ to @Data-Files@ in your @.cabal@
 -- file.
 -- 
+-- If you want to use one of the lists we already supply
+-- 
 
 module Text.Eros.Phraselist where
 
-import Control.Applicative ((<$>), (<*>))
-import Control.Monad (mzero, sequence)
-import Data.Aeson
-import Data.Text (Text)
-import Data.Tree
-import Text.Eros.Phrase
-import Paths_eros
+import           Control.Applicative ((<$>), (<*>))
+import           Control.Monad (mzero, sequence)
+import           Data.Aeson
+import qualified Data.ByteString.Lazy as B
+import           Data.Text.Lazy (Text)
+import qualified Data.Text.Lazy as L
+import           Data.Tree
+import           Paths_eros
+import           System.Exit
+import           Text.Eros.Phrase
 
 class Phraselist t where
   phraselistPath :: t -> IO FilePath
 
 -- |The phraselists in @res/@. Each of these constructors correspond
 -- to one of the files
--- <https://gitlab.com/pharpend/eros/tree/master/res/phraselists-pretty here>.
+-- <https://github.com/pharpend/eros/tree/master/res/phraselists-pretty here>.
 -- 
 -- Gitlab has a terrible interface, so I won't provide links to each
 -- one of them.
@@ -161,7 +166,7 @@ data PhraseAlmostTree = PhraseAlmostTree { patPhrase :: Text
 type PAT = PhraseAlmostTree
 
 -- |You can read the
--- <https://gitlab.com/pharpend/eros/raw/master/res/phraselist-schema.json JSON schema>
+-- <https://raw.githubusercontent.com/pharpend/eros/master/res/phraselist-schema.json JSON schema>
 -- to see how this works.
 instance FromJSON PAT where
   parseJSON (Object v) = PhraseAlmostTree
@@ -177,3 +182,13 @@ fromPAT (PhraseAlmostTree p s f) = Node (Phrase p s) $ map fromPAT f
 -- |I figure some people like to type a lot.
 fromPhraseAlmostTree :: PAT -> PhraseTree
 fromPhraseAlmostTree = fromPAT
+
+-- |Read a 'Phraselist', marshal it into a 'PhraseForest'.
+readPhraselist :: Phraselist t => t -> IO PhraseForest
+readPhraselist elist = do
+  lpath <- phraselistPath elist
+  ltext <- B.readFile lpath
+  let ljson = (eitherDecode ltext) :: Either String [PAT]
+  case ljson of
+    Left msg   -> fail msg
+    Right pats -> return $ map fromPAT pats

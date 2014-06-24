@@ -1,5 +1,6 @@
 {-# LANGUAGE FlexibleInstances #-}
 {-# LANGUAGE OverloadedStrings #-}
+{-# LANGUAGE RankNTypes #-}
 
 -- |
 -- Module       : Text.Eros.Phraselist
@@ -50,6 +51,10 @@ import           Text.Eros.Phrase
 
 class Phraselist t where
   phraselistPath :: t -> IO FilePath
+
+-- |A set of 'Phraselist's. Note that this is actually a list, and I'm
+-- calling it a "set" for purely lexical purposes.
+type PhraselistSet = Phraselist t => [t]
 
 -- |The phraselists in @res/@. Each of these constructors correspond
 -- to one of the files
@@ -120,7 +125,7 @@ erosLists = [ Chat
 
 -- |A list of the paths to the phraselists we provide.
 erosListPaths :: IO [FilePath]
-erosListPaths = sequence $ map phraselistPath erosLists
+erosListPaths = mapM phraselistPath erosLists
 
 -- These are the data paths for the various PhraseLists
 instance Phraselist ErosList where
@@ -173,7 +178,7 @@ instance FromJSON PAT where
     <$> v .: "phrase"
     <*> v .: "score"
     <*> v .: "forest"
-  parseJSON _ = fail $ "Must be a PAT"
+  parseJSON _ = fail "Must be a PAT"
 
 -- |Convert a 'PAT' into a 'PhraseTree'.
 fromPAT :: PAT -> PhraseTree

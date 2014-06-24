@@ -40,11 +40,14 @@ treeScore :: PhraseTree -> Int
 treeScore = sum . map score . flatten
 
 -- |Given a list of 'PhraseTree's, return the top-level 'phrase's.
-forestPhrases :: PhraseForest -> [Phrase]
+forestPhrases :: [PhraseTree] -> [Text]
 forestPhrases = map forestPhrase
 
 -- |Given a 'PhraseTree', return the top-level 'phrase'.
-forestPhrase :: PhraseTree -> Phrase
-forestPhrase (Node phr subf) = phr
+forestPhrase :: PhraseTree -> Text
+forestPhrase (Node phr subf) = phrase phr
 
-
+-- |Given a list of 'PhraseTree's, return an associative list (alist)
+-- of each phrase with the appropriate tree.
+phraseTreeAlist :: [PhraseTree] -> [(Text, PhraseTree)]
+phraseTreeAlist frs = zip (forestPhrases frs) frs

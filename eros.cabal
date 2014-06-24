@@ -2,7 +2,7 @@ name:                eros
 version:             0.0.0.0
 synopsis:            A text censorship library.
 description:         A text blocker, using DansGuardian's wonderful phaselist.
-homepage:            https://txtrjn.valkyrian.com/
+homepage:            https://eros.valkyrian.com/
 license:             BSD3
 license-file:        LICENSE
 author:              Peter Harpending

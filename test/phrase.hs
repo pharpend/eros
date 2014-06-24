@@ -3,7 +3,7 @@ module Main where
 import Data.Aeson
 import qualified Data.ByteString.Lazy as L
 import System.Exit
-import Text.Trojan.Phrase
+import Text.Trojan.Phraselist
 
 dcd :: L.ByteString -> Either String [PAT]
 dcd = eitherDecode
@@ -14,4 +14,10 @@ testPhraseFile f = do
   let ejs = dcd txt
   case ejs of
     Left error -> print error >> exitFailure
-    Right json -> print $ map fromPAT json
+    Right json -> exitSuccess
+
+main :: IO ()
+main = do
+  trojanPaths <- trojanListPaths
+  let tests = map testPhraseFile trojanPaths
+  return ()

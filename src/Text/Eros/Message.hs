@@ -20,8 +20,14 @@ import           Text.Eros.Phrase
 import           Text.Eros.Phraselist
 
 -- |A type alias for text.
-type Message = L.Text
-type Word    = L.Text
+type BadWord     = L.Text
+type Message     = L.Text
+type MessagePart = L.Text
+type Restof      = L.Text
+type Word        = L.Text
+
+type Score = Int
+
 
 -- |Given a phrase, this will look up the phrase's score. If the
 -- phrase is not listed, this returns 0.
@@ -33,14 +39,13 @@ phraseScore msg forestMap  =
     
 -- |Given a message, and a list of potential phrases, find the phrases
 -- within the message.
-messageSayings :: Message -> M.Map Message PhraseTree -> M.Map (Message, Message) (Maybe PhraseTree)
-messageSayings initialText sayingsMap = M.fromList $ concat
-                                                   $ filter (/= [])
-                                                   $ nub
-                                                   $ map (breakSaying) potentialSayings
+splitAtBadWords :: Message -> PhraseMap -> M.Map BadWord Restof
+splitAtBadWords initialText sayingsMap = M.fromList $ concat
+                                                    $ filter (/= [])
+                                                    $ nub
+                                                    $ map breakSaying potentialSayings
   where potentialSayings   = M.keys sayingsMap
         lowerText          = L.toLower initialText
-        breakSaying saying = map (\(a, b) -> ((L.strip a,
-                                               L.strip $ L.take (L.length saying) b),
-                                              M.lookup saying sayingsMap))
+        trimPair (a, b)    = (L.strip a, L.strip b)
+        breakSaying saying = map (\(_, b) -> trimPair $ L.splitAt (L.length saying) b)
                                  $ L.breakOnAll saying lowerText

@@ -35,6 +35,8 @@ instance Ord Phrase where
 type PhraseTree = Tree Phrase
 -- |A 'Forest' of 'Phrase's
 type PhraseForest = Forest Phrase
+-- |A Map of text values the appropriate tree
+type PhraseMap = M.Map Text PhraseTree
 
 -- |The 'score' of the 'PhraseTree' is the sum of the 'score's of its 'Node's.
 treeScore :: PhraseTree -> Int
@@ -50,6 +52,6 @@ forestPhrase (Node phr subf) = phrase phr
 
 -- |Given a list of 'PhraseTree's, return a map of each phrase with
 -- the appropriate tree.
-phraseTreeMap :: [PhraseTree] -> M.Map Text PhraseTree
-phraseTreeMap = M.fromList . phraseTreeAlist
+mkMap :: PhraseForest -> PhraseMap
+mkMap = M.fromList . phraseTreeAlist
   where phraseTreeAlist frs = zip (forestPhrases frs) frs

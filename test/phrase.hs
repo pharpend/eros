@@ -2,15 +2,16 @@
 
 module Main where
 
-import Text.Eros.Phrase
-import Text.Eros.Phraselist
-import Text.Eros.Message
+import qualified Data.Map.Strict as M
+import qualified Data.Text.Lazy as T
+import           Text.Eros.Phrase
+import           Text.Eros.Phraselist
+import           Text.Eros.Message
+
 
 testMessagePhraseScore = do
   pornForest  <- readPhraselist Pornography
-  let pornMap     = phraseTreeMap pornForest
+  let pornMap     = mkMap pornForest
       pornSayings = forestPhrases pornForest
-      msgp m      = print $ messageSayings m pornMap
-  msgp "Fuck you, you fucking fuck!"
-  msgp "Fuck!"
-  msgp "Clitty clitty bang bang."
+      brmap msg   = splitAtBadWords msg pornMap
+  return ()

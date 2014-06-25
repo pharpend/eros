@@ -31,11 +31,11 @@ type Score = Int
 
 -- |Given a phrase, this will look up the phrase's score. If the
 -- phrase is not listed, this returns 0.
-phraseScore :: Message -> (M.Map Message PhraseTree) -> Int
-phraseScore msg forestMap  =
-  case (M.lookup msg forestMap) of
-    Just (Node phrs _) -> score phrs
-    Nothing            -> 0
+phraseScore :: Message -> M.Map Message PhraseTree -> Int
+phraseScore msg forestMap = let result = M.lookup msg forestMap in
+                            case result of
+                              Just (Node phrs _) -> score phrs
+                              Nothing            -> 0
     
 -- |Given a message, and a list of potential phrases, find the phrases
 -- within the message.

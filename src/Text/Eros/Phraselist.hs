@@ -178,7 +178,7 @@ instance FromJSON PAT where
     <$> v .: "phrase"
     <*> v .: "score"
     <*> v .: "forest"
-  parseJSON _ = fail "Must be a PAT"
+  parseJSON _          = fail "Object not a PhraseAlmostTree."
 
 -- |Convert a 'PAT' into a 'PhraseTree'.
 fromPAT :: PAT -> PhraseTree

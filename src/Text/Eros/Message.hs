@@ -1,5 +1,3 @@
-{-# LANGUAGE OverloadedStrings #-}
-
 -- |
 -- Module       : Text.Eros.Message
 -- Description  : Module for censoring pieces of text.

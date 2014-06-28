@@ -83,3 +83,8 @@ Test-Suite test-phrase
     , eros
     , QuickCheck
     , text
+
+source-repository head
+  type:     git
+  location: https://github.com/pharpend/eros.git
+  branch:   master

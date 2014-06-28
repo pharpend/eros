@@ -197,3 +197,23 @@ readPhraselist elist = do
   case ljson of
     Left msg   -> fail msg
     Right pats -> return $ map fromPAT pats
+
+-- |Alias for 'readPhraselist'
+loadPhraselist :: Phraselist t => t -> IO PhraseForest
+loadPhraselist = readPhraselist
+
+-- |Alias for 'readPhraselist'
+readPhraseForest :: Phraselist t => t -> IO PhraseForest
+readPhraseForest = readPhraselist
+
+-- |Alias for 'readPhraselist'
+loadPhraseForest :: Phraselist t => t -> IO PhraseForest
+loadPhraseForest = readPhraselist
+
+-- |Load a 'Phraselist' directly into a 'PhraseMap'
+readPhraseMap :: Phraselist t => t -> IO PhraseMap
+readPhraseMap plist = fmap mkMap $ readPhraselist plist
+
+-- |Alias for 'readPhraseMap'
+loadPhraseMap :: Phraselist t => t -> IO PhraseMap
+loadPhraseMap = readPhraseMap

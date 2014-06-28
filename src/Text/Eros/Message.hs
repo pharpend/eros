@@ -7,9 +7,9 @@
 -- Stability    : experimental
 -- Portability  : archlinux
 
--- This module deals specifically with pieces of Text.
+-- This module deals specifically with pieces of 'Text'.
 
-module Text.Eros.Message where
+module Text.Eros.Message (messageScore) where
 
 -- Here, we have all the imports.
 import           Data.List
@@ -20,7 +20,7 @@ import           Text.Eros.Phrase
 import           Text.Eros.Phraselist
 
 
--- I can never remember what I named things, so here are a bunch of
+-- |I can never remember what I named things, so here are a bunch of
 -- type synonyms.
 type BadWord     = L.Text
 type Message     = L.Text
@@ -30,10 +30,14 @@ type RestOf      = L.Text
 type Word        = L.Text
 type Score       = Int
 
+-- |Does a top-level split of a 'Message'. Returns a list of pairs,
+-- with the first element being the score up to that point in the
+-- message, as well as the rest of the message. That gives you
+-- somewhat of an idea how it works, but that's not quite it
 messageSplit :: Message -> PhraseMap -> [(Score, RestOf)]
 messageSplit initialText sayingsMap = concat $ filter (/= [])
-                                                  $ nub
-                                                  $ map breakSaying potentialSayings
+                                             $ nub
+                                             $ map breakSaying potentialSayings
   where
     potentialSayings      = M.keys sayingsMap
     breakSaying saying    = map (trimSaying saying . snd) $ broked saying
@@ -46,6 +50,7 @@ messageSplit initialText sayingsMap = concat $ filter (/= [])
     lowerText             = L.toLower initialText         -- looks like "go fuck yourself" (compared to "gO fUcK yOURSelf")
     trimPair (a, b)       = (L.strip a, L.strip b)        -- looks like ("go", "fuck yourself")
 
+-- |Given a message, find its score.
 messageScore :: Message -> PhraseMap -> Score
 messageScore msg pmap
   | L.empty == msg = 0

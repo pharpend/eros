@@ -36,7 +36,19 @@
 -- If you want to use one of the lists we already supply
 -- 
 
-module Text.Eros.Phraselist where
+module Text.Eros.Phraselist ( readPhraselist
+                            , loadPhraselist
+                            , readPhraseForest
+                            , loadPhraseForest
+                            , readPhraseFile
+                            , loadPhraseFile
+                            , readPhraseMap
+                            , loadPhraseMap
+                            , Phraselist
+                            , PhraselistSet
+                            , ErosList
+                            , erosLists
+                            ) where
 
 import           Control.Applicative ((<$>), (<*>))
 import           Control.Monad (mzero, sequence)
@@ -201,6 +213,14 @@ readPhraselist elist = do
 -- |Alias for 'readPhraselist'
 loadPhraselist :: Phraselist t => t -> IO PhraseForest
 loadPhraselist = readPhraselist
+
+-- |Alias for 'readPhraselist'
+readPhraseFile :: Phraselist t => t -> IO PhraseForest
+readPhraseFile = readPhraselist
+
+-- |Alias for 'readPhraselist'
+loadPhraseFile :: Phraselist t => t -> IO PhraseForest
+loadPhraseFile = readPhraselist
 
 -- |Alias for 'readPhraselist'
 readPhraseForest :: Phraselist t => t -> IO PhraseForest

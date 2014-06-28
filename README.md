@@ -17,8 +17,11 @@ like to contribute, please do.
 If you want to contribute, you'll need `ghc` and `cabal-install` 
 
 0.  Clone the git repo
+
         git clone https://github.com/pharpend/eros.git
+
 1.  Install in a sandbox
+
         cd eros
         cabal sandbox init
         cabal install --enable-tests

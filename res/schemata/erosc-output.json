@@ -1,0 +1,19 @@
+{
+  "name": "erosc-output",
+  "type": "array",
+  "description": "The output of erosc.",
+  "items": {
+    "type": "object",
+    "description": "The phraselist name, along with the score for that phraselist.",
+    "properties": {
+      "eros-list": {
+        "type": "string",
+        "description": "The name of the phraselist corresponding to this object."
+      },
+      "score": {
+        "type": "number",
+        "description": "The score corresponding to this phraselist."
+      }
+    }
+  }
+}

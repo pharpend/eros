@@ -11,7 +11,6 @@ description:
   There exist compressed versions, for use within your code. You can see the
   compressed versions
   <https://github.com/pharpend/eros/tree/master/res/phraselists-ugly here>.
-
 homepage:            https://eros.valkyrian.com/
 license:             BSD3
 license-file:        LICENSE
@@ -21,7 +20,9 @@ copyright:           2014, Peter Harpending.
 category:            Text
 build-type:          Simple
 data-files:
-  res/phraselist-schema.json
+  res/schemata/erosc-input.json
+  res/schemata/erosc-output.json
+  res/schemata/phraselist.json
   res/phraselists-ugly/chat.json
   res/phraselists-ugly/conspiracy.json
   res/phraselists-ugly/drug-advocacy.json
@@ -56,9 +57,10 @@ cabal-version:       >=1.10
 library
   exposed-modules:
       Text.Eros.Message
-      Text.Eros.Phrase
-      Text.Eros.Phraselist
-  -- other-modules:       
+    , Text.Eros.Phrase
+    , Text.Eros.Phraselist
+  other-modules:       
+      Paths_eros
   other-extensions:
       FlexibleInstances
     , OverloadedStrings
@@ -68,7 +70,7 @@ library
     , bytestring
     , containers
     , text
-  hs-source-dirs:      lib/
+  hs-source-dirs:      src/lib/
   default-language:    Haskell2010
 
 Test-Suite test-phrase
@@ -86,11 +88,14 @@ Test-Suite test-phrase
 
 executable erosc
   build-depends:
-      base >=4.7 && <4.8
+      aeson
+    , base >=4.7 && <4.8
+    , bytestring
+    , containers
     , eros
     , text
 
-  hs-source-dirs: erosc/
+  hs-source-dirs: src/erosc/
   main-is: Main.hs
 
 source-repository head

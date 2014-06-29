@@ -38,12 +38,13 @@
 
 module Text.Eros.Phraselist where
 
-import           Control.Applicative ((<$>), (<*>))
-import           Control.Monad (mzero, sequence)
+import           Control.Applicative  ((<$>), (<*>))
+import           Control.Monad        (mzero, sequence)
 import           Data.Aeson
 import qualified Data.ByteString.Lazy as B
-import           Data.Text.Lazy (Text)
-import qualified Data.Text.Lazy as L
+import qualified Data.Map             as M
+import           Data.Text.Lazy       (Text)
+import qualified Data.Text.Lazy       as L
 import           Data.Tree
 import           Paths_eros
 import           System.Exit
@@ -91,6 +92,64 @@ data ErosList = Chat
               | Weapons
               | Webmail
 
+instance Eq ErosList where
+  (==) Chat Chat = True
+  (==) Conspiracy Conspiracy = True
+  (==) DrugAdvocacy DrugAdvocacy = True
+  (==) Forums Forums = True
+  (==) Gambling Gambling = True
+  (==) Games Games = True
+  (==) Gore Gore = True
+  (==) IdTheft IdTheft = True
+  (==) IllegalDrugs IllegalDrugs = True
+  (==) Intolerance Intolerance = True
+  (==) LegalDrugs LegalDrugs = True
+  (==) Malware Malware = True
+  (==) Music Music = True
+  (==) News News = True
+  (==) Nudism Nudism = True
+  (==) Peer2Peer Peer2Peer = True
+  (==) Personals Personals = True
+  (==) Pornography Pornography = True
+  (==) Proxies Proxies = True
+  (==) SecretSocieties SecretSocieties = True
+  (==) SelfLabeling SelfLabeling = True
+  (==) Sport Sport = True
+  (==) Translation Translation = True
+  (==) UpstreamFilter UpstreamFilter = True
+  (==) Violence Violence = True
+  (==) WarezHacking WarezHacking = True
+  (==) Weapons Weapons = True
+  (==) Webmail Webmail = True
+  (==) Chat _ = False
+  (==) Conspiracy _ = False
+  (==) DrugAdvocacy _ = False
+  (==) Forums _ = False
+  (==) Gambling _ = False
+  (==) Games _ = False
+  (==) Gore _ = False
+  (==) IdTheft _ = False
+  (==) IllegalDrugs _ = False
+  (==) Intolerance _ = False
+  (==) LegalDrugs _ = False
+  (==) Malware _ = False
+  (==) Music _ = False
+  (==) News _ = False
+  (==) Nudism _ = False
+  (==) Peer2Peer _ = False
+  (==) Personals _ = False
+  (==) Pornography _ = False
+  (==) Proxies _ = False
+  (==) SecretSocieties _ = False
+  (==) SelfLabeling _ = False
+  (==) Sport _ = False
+  (==) Translation _ = False
+  (==) UpstreamFilter _ = False
+  (==) Violence _ = False
+  (==) WarezHacking _ = False
+  (==) Weapons _ = False
+  (==) Webmail _ = False
+
 -- |A list of phraselists we provide.
 erosLists :: [ErosList]
 erosLists = [ Chat
@@ -126,6 +185,50 @@ erosLists = [ Chat
 -- |A list of the paths to the phraselists we provide.
 erosListPaths :: IO [FilePath]
 erosListPaths = mapM phraselistPath erosLists
+
+erosListNames :: [L.Text]
+erosListNames = [ "chat"
+                , "conspiracy"
+                , "drug-advocacy"
+                , "forums"
+                , "gambling"
+                , "games"
+                , "gore"
+                , "id-theft"
+                , "illegal-drugs"
+                , "intolerance"
+                , "legal-drugs"
+                , "malware"
+                , "music"
+                , "news"
+                , "nudism"
+                , "peer2peer"
+                , "personals"
+                , "pornography"
+                , "proxies"
+                , "secret-societies"
+                , "self-labeling"
+                , "sport"
+                , "translation"
+                , "upstream-filter"
+                , "violence"
+                , "warez-hacking"
+                , "weapons"
+                , "webmail"
+                ]
+
+-- |You can't really order the lists, so we won't use 'M.Map'
+erosListNamePairs :: [(ErosList, L.Text)]
+erosListNamePairs = zip erosLists erosListNames
+
+erosNameByList :: ErosList -> Maybe L.Text
+erosNameByList key = lookup key erosListNamePairs
+
+erosNameListMap :: M.Map L.Text ErosList
+erosNameListMap = M.fromList $ zip erosListNames erosLists
+
+erosListByName :: L.Text -> Maybe ErosList
+erosListByName key = M.lookup key erosNameListMap 
 
 -- These are the data paths for the various PhraseLists
 instance Phraselist ErosList where

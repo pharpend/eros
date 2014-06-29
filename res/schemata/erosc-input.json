@@ -1,0 +1,20 @@
+{
+  "name": "erosc-input",
+  "type": "object",
+  "description": "The schema for the input to erosc.",
+  "properties": {
+    "text": {
+      "type": "string",
+      "description": "The text you want to be checked against the phraselists.",
+      "required": true
+    },
+    "eros-lists": {
+      "type": "array",
+      "description": "The phraselists provided by eros you want \"text\" to be checked against.",
+      "required": true,
+      "items": {
+        "type": "string"
+      }
+    },
+  }
+}

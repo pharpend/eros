@@ -11,7 +11,7 @@ description:
   There exist compressed versions, for use within your code. You can see the
   compressed versions
   <https://github.com/pharpend/eros/tree/master/res/phraselists-ugly here>.
-homepage:            https://eros.valkyrian.com/
+-- homepage:            https://eros.valkyrian.com/
 license:             BSD3
 license-file:        LICENSE
 author:              Peter Harpending
@@ -85,6 +85,7 @@ Test-Suite test-phrase
     , eros
     , QuickCheck
     , text
+  default-language:    Haskell2010
 
 executable erosc
   build-depends:
@@ -95,12 +96,11 @@ executable erosc
     , containers
     , eros
     , text
-
   hs-source-dirs: src/erosc/
   main-is: Main.hs
+  default-language:    Haskell2010
 
 source-repository head
   type:     git
   location: https://github.com/pharpend/eros.git
   branch:   master
-  tag:      v.0.2

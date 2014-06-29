@@ -9,13 +9,14 @@ module Main where
 import           Control.Applicative
 import           Control.Monad (mzero)
 import           Data.Aeson
-import qualified Data.Aeson             as Aeson
+import           Data.Aeson.Encode.Pretty
 import qualified Data.ByteString.Lazy   as LzByte
 import qualified Data.Text.Lazy         as LzText
 import qualified Data.Text.Lazy.IO      as LazyIO
 import qualified Data.Map               as M
 import qualified System.IO              as StdIO
 import           Text.Eros.Message
+import           Text.Eros.Phrase (mkMap)
 import           Text.Eros.Phraselist
 
 -- |It's convenient to think of Scores as Scores, although, they are truly ints.
@@ -63,6 +64,10 @@ instance ToJSON (ErosList, Score) where
 instance ToJSON EroscOutput where
   toJSON (EroscOutput elm) = toJSON elm
 
+erosEncode :: ToJSON a => a -> LzByte.ByteString
+erosEncode = encodePretty' defConfig { confIndent = 2
+                                     }
+
 main :: IO ()
 main = do
   -- take the json from stdin, try to decode it
@@ -71,5 +76,23 @@ main = do
   -- if by chance, it isn't decoded, the program shall flip its shit
   case eitherJson of
     Left msg      -> fail msg
-    Right ecInput -> putStrLn "Yay, you got here!"
+    Right ecInput -> runInput ecInput
+
+runInput :: EroscInput -> IO ()
+runInput ipt = do
+  result <- processInput ipt
+  let jsonText = erosEncode result
+  LzByte.hPutStr StdIO.stdout jsonText
+
+processInput :: EroscInput -> IO EroscOutput
+processInput (EroscInput txt lists) = do
+    outLists <- mapM listPair lists
+    return $ EroscOutput outLists
+  where
+    listPair :: ErosList -> IO (ErosList, Score)
+    listPair ls = do
+      pmap <- loadPhraseMap ls
+      let scr = messageScore txt pmap
+      return (ls, scr)
   
+

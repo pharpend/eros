@@ -89,6 +89,7 @@ Test-Suite test-phrase
 executable erosc
   build-depends:
       aeson
+    , aeson-pretty
     , base >=4.7 && <4.8
     , bytestring
     , containers

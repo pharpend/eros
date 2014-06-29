@@ -52,7 +52,9 @@ data EroscOutput = EroscOutput { elScore :: [(ErosList, Score)] }
 instance ToJSON ErosList where
   toJSON el = case erosNameByList el of
                 Just nom -> toJSON nom
-                Nothing  -> "Well, something got fucked up."
+                Nothing  -> "There's probably a bug in the JSON parsing \
+                            \library Eros uses. You should file a bug \
+                            \report at https://github.com/pharpend/eros/issues."
 
 -- |Pretty self-explanatory
 instance ToJSON (ErosList, Score) where
@@ -67,13 +69,9 @@ instance ToJSON EroscOutput where
 erosEncode :: ToJSON a => a -> LzByte.ByteString
 erosEncode = encodePretty' defConfig { confIndent = 2
                                      }
-
-main :: IO ()
-main = do
-  -- take the json from stdin, try to decode it
-  inputBt <- LzByte.hGetContents StdIO.stdin
+runBtStr :: LzByte.ByteString -> IO ()
+runBtStr inputBt = do
   let eitherJson = (eitherDecode inputBt) :: Either String EroscInput
-  -- if by chance, it isn't decoded, the program shall flip its shit
   case eitherJson of
     Left msg      -> fail msg
     Right ecInput -> runInput ecInput
@@ -95,4 +93,5 @@ processInput (EroscInput txt lists) = do
       let scr = messageScore txt pmap
       return (ls, scr)
   
-
+main :: IO ()
+main = runBtStr =<< LzByte.hGetContents StdIO.stdin

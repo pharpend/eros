@@ -1,5 +1,5 @@
 name:                eros
-version:             0.2.0.0
+version:             0.2.0.2
 synopsis:            A text censorship library.
 description:
   A Haskell library for censoring text, using

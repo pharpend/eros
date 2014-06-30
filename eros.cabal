@@ -1,5 +1,5 @@
 name:                eros
-version:             0.2.0.2
+version:             0.2.1.0
 synopsis:            A text censorship library.
 description:
   A Haskell library for censoring text, using
@@ -97,8 +97,9 @@ executable erosc
     , eros
     , text
   hs-source-dirs: src/erosc/
-  main-is: Main.hs
+  main-is: Main.lhs
   default-language:    Haskell2010
+  ghc-options: -Wall
 
 source-repository head
   type:     git

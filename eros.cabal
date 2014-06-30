@@ -20,37 +20,8 @@ copyright:           2014, Peter Harpending.
 category:            Text
 build-type:          Simple
 data-files:
-  res/schemata/erosc-input.json
-  res/schemata/erosc-output.json
-  res/schemata/phraselist.json
-  res/phraselists-ugly/chat.json
-  res/phraselists-ugly/conspiracy.json
-  res/phraselists-ugly/drug-advocacy.json
-  res/phraselists-ugly/forums.json
-  res/phraselists-ugly/gambling.json
-  res/phraselists-ugly/games.json
-  res/phraselists-ugly/gore.json
-  res/phraselists-ugly/id-theft.json
-  res/phraselists-ugly/illegal-drugs.json
-  res/phraselists-ugly/intolerance.json
-  res/phraselists-ugly/legal-drugs.json
-  res/phraselists-ugly/malware.json
-  res/phraselists-ugly/music.json
-  res/phraselists-ugly/news.json
-  res/phraselists-ugly/nudism.json
-  res/phraselists-ugly/peer2peer.json
-  res/phraselists-ugly/personals.json
-  res/phraselists-ugly/pornography.json
-  res/phraselists-ugly/proxies.json
-  res/phraselists-ugly/secret-societies.json
-  res/phraselists-ugly/self-labeling.json
-  res/phraselists-ugly/sport.json
-  res/phraselists-ugly/translation.json
-  res/phraselists-ugly/upstream-filter.json
-  res/phraselists-ugly/violence.json
-  res/phraselists-ugly/warez-hacking.json
-  res/phraselists-ugly/weapons.json
-  res/phraselists-ugly/webmail.json
+  res/schemata/*.json
+  res/phraselists-ugly/*.json
   
 cabal-version:       >=1.10
 

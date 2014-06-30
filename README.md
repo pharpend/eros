@@ -18,9 +18,9 @@ At the time of this writing, I'm at version 0.3 (see
 See the [API documentation on Hackage](http://hackage.haskell.org/package/eros)
 if you want to learn how to use the library.
 
-# Usage - v.0.3.0.1
+# Usage - v.0.3.1.0
 
-This is a usage guide for version 0.3.0.1. There will be more up-to-date usage
+This is a usage guide for version 0.3.1.0. There will be more up-to-date usage
 guides as more versions come, hopefully.
 
 To install, run `cabal install eros`.
@@ -56,8 +56,8 @@ Here is the schema for the input:
 }
 ```
 
-That is the up-to-date schema, as of version 0.3.0.1 . It is liable to
-change. If the version you downloaded is greater than 0.3.0.1, make sure to
+That is the up-to-date schema, as of version 0.3.1.0 . It is liable to
+change. If the version you downloaded is greater than 0.3.1.0, make sure to
 check the schema (it is distributed with the package) to make sure it is up to
 date. The schema is located in `res/schemata/erosc-input.json`.
 

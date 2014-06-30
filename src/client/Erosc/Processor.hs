@@ -24,8 +24,7 @@ import           Data.Aeson                     hiding (encode)
 import           Data.Aeson.Encode.Pretty
 import qualified Data.ByteString.Lazy as LzByte
 import qualified Data.Text.Lazy       as LzText
-import           Text.Eros.Message
-import           Text.Eros.Phraselist
+import           Text.Eros
 
 -- |Okay, here's a function that actually does something. It takes an
 -- 'Input' type, and process it.

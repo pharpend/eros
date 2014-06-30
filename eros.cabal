@@ -1,5 +1,5 @@
 name:                eros
-version:             0.3.0.0
+version:             0.3.0.1
 synopsis:            A text censorship library.
 description:
   A Haskell library for censoring text, using
@@ -17,7 +17,11 @@ description:
   towards a stable version, though!
 
   I recommend looking at the API documentation for Text.Eros if you want an idea
-  of how to use the library.
+  of how to use the library. Hackage seems to be completely unable to build the
+  documentation for Eros. For that reason, I publish the documentation
+  <https://pharpend.github.io/eros-haddock/ on GitHub>.
+
+
 -- homepage:            https://eros.valkyrian.com/
 license:             BSD3
 license-file:        LICENSE
@@ -39,7 +43,7 @@ extra-source-files:
 library
   exposed-modules:
       Text.Eros
-  other-modules:       
+  other-modules:
       Paths_eros
     , Text.Eros.Message
     , Text.Eros.Phrase

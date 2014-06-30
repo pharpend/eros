@@ -1,5 +1,5 @@
 name:                eros
-version:             0.4.0.0
+version:             0.4.0.1
 synopsis:            A text censorship library.
 description:
   A Haskell library for censoring text, using
@@ -41,7 +41,7 @@ library
     , OverloadedStrings
   build-depends:
       aeson
-    , base >=4.7 && <4.8
+    , base       >=4.7 && <4.8
     , bytestring
     , containers
     , text

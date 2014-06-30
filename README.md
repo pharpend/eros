@@ -18,9 +18,9 @@ want to learn how to use the library. Hackage isn't terribly reliable at
 successfully building the documentation, so I also publish the documentation on
 [GitHub pages](https://pharpend.github.io/eros-haddock)
 
-# Usage - v.0.4.0.0
+# Usage - v.0.4.0.1
 
-This is a usage guide for version 0.3.1.0. There will be more up-to-date usage
+This is a usage guide for version 0.4.0.1. There will be more up-to-date usage
 guides as more versions come, hopefully.
 
 To install, add `eros >=0.4 && <0.5` to the `build-depends` field in your

@@ -1,5 +1,5 @@
 name:                eros
-version:             0.2.1.0
+version:             0.2.1.1
 synopsis:            A text censorship library.
 description:
   A Haskell library for censoring text, using
@@ -22,8 +22,11 @@ build-type:          Simple
 data-files:
   res/schemata/*.json
   res/phraselists-ugly/*.json
-  
 cabal-version:       >=1.10
+extra-source-files:
+  README.md
+  res/schemata/*.json
+  res/phraselists-pretty/*.json
 
 library
   exposed-modules:

@@ -12,148 +12,36 @@ for use in your code.
 Eros is still in development, and is not ready to be actually used. If you would
 like to contribute, please do.
 
-At the time of this writing, I'm at version 0.3 (see
-[here](https://github.com/pharpend/eros/releases)) for the current release.
+You can try the
+[API documentation on Hackage](http://hackage.haskell.org/package/eros) if you
+want to learn how to use the library. Hackage isn't terribly reliable at
+successfully building the documentation, so I also publish the documentation on
+[GitHub pages](https://pharpend.github.io/eros-haddock)
 
-See the [API documentation on Hackage](http://hackage.haskell.org/package/eros)
-if you want to learn how to use the library.
-
-# Usage - v.0.3.1.0
+# Usage - v.0.4.0.0
 
 This is a usage guide for version 0.3.1.0. There will be more up-to-date usage
 guides as more versions come, hopefully.
 
-To install, run `cabal install eros`.
+To install, add `eros >=0.4 && <0.5` to the `build-depends` field in your
+library's `.cabal` file
 
-## `erosc`
+You can get all the functions, simply by `import`ing `Text.Eros`.
 
-The only way to interact with the library, for the time being is through the
-client I built, `erosc`. It accepts input in Javascript Object Notation (JSON)
-through `stdin`.
-
-Here is the schema for the input:
-
-```json
-{
-  "name": "erosc-input",
-  "type": "object",
-  "description": "The schema for the input to erosc.",
-  "properties": {
-    "text": {
-      "type": "string",
-      "description": "The text you want to be checked against the phraselists.",
-      "required": true
-    },
-    "eros-lists": {
-      "type": "array",
-      "description": "The phraselists provided by eros you want \"text\" to be checked against.",
-      "required": true,
-      "items": {
-        "type": "string"
-      }
-    },
-  }
-}
-```
-
-That is the up-to-date schema, as of version 0.3.1.0 . It is liable to
-change. If the version you downloaded is greater than 0.3.1.0, make sure to
-check the schema (it is distributed with the package) to make sure it is up to
-date. The schema is located in `res/schemata/erosc-input.json`.
-
-`erosc` will take that input, and send back output in JSON, in accordance with
-the schema found in `res/schemata/erosc-output.json`.
-
-```json
-{
-  "name": "erosc-output",
-  "type": "array",
-  "description": "The output of erosc.",
-  "items": {
-    "type": "object",
-    "description": "The phraselist name, along with the score for that phraselist.",
-    "properties": {
-      "eros-list": {
-        "type": "string",
-        "description": "The name of the phraselist corresponding to this object."
-      },
-      "score": {
-        "type": "number",
-        "description": "The score corresponding to this phraselist."
-      }
-    }
-  }
-}
-```
-
-## Example
-
-This is the example input from `res/erosc-dummy-inputs/input0.json`.
-
-```json
-{
-  "text": "Fuck you, you fucking fuck! Fucking bitch tits milf sex sluts!",
-  "eros-lists": [
-    "gambling",
-    "pornography"
-  ]
-}
-```
-
-Running `erosc < res/erosc-dummy-inputs/input0.json` yields
-
-```json
-[
-  {
-    "score": 0,
-    "eros-list": "gambling"
-  },
-  {
-    "score": 11394,
-    "eros-list": "pornography"
-  }
-]
-```
-
-## Library
-
-You are welcome to build your own client, and use that. To do so, simply import
-`Text.Eros`. Hackage seems to be unable to build the API documentation for Eros,
-but it won't hurt to check
-[eros on Hackage](http://hackage.haskell.org/package/eros).
-
-If that doesn't work, I publish the documentation
+Hackage seems to be unable to build the API documentation for Eros, but it won't
+hurt to check [eros on Hackage](http://hackage.haskell.org/package/eros).  If
+that doesn't work, I publish the documentation
 [here](https://pharpend.github.io/eros-haddock).
 
 # Contributing
 
-If you want to contribute, you'll need `ghc` and `cabal-install` 
+I would love if people would contribute. QuickCheck tests are desperately
+needed.
 
-0.  Clone the git repo
+As far as functionality goes, this library is pretty cut & dry. I already added
+all of the features I envisioned.
 
-        git clone https://github.com/pharpend/eros.git
+# Contact
 
-1.  Install in a sandbox
-
-        cd eros
-        cabal sandbox init
-        cabal install --enable-tests
-
-# Planned features
-
-## `erosc` ⟶ `eros-server`
-
-As it stands, `erosc` is tedious and a bit difficult to use. I plan on rewriting
-`erosc` to act as an HTTP[s] server, using Happstack, using acid-state as a RAM
-cloud. This will be the fastest and easiest to maintain solution.
-
-I will still include an offline client, but it won't be the focus of
-development.
-
-## More options
-
-I need to add more filtering options, such as phraselist-specific thresholds,
-custom phraselists, and, well, just more stuff.
-
-If you have any ideas, please don't hesitate to email me at
-<pharpend2@gmail.com>.
+The best way to contact me is via IRC. I hang out on `#archlinux` and `#haskell`
+on FreeNode. My handles are `l0cust` and `isomorpheous`.

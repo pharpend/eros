@@ -50,6 +50,26 @@ import           Paths_eros
 import           System.Exit
 import           Text.Eros.Phrase
 
+-- |Read a 'Phraselist', marshal it into a 'PhraseForest'.
+readPhraselist :: Phraselist t => t -> IO PhraseForest
+readPhraselist elist = do
+  lpath <- phraselistPath elist
+  ltext <- B.readFile lpath
+  let ljson = (eitherDecode ltext) :: Either String [PAT]
+  case ljson of
+    Left msg   -> fail msg
+    Right pats -> return $ map fromPAT pats
+
+-- |Load a 'Phraselist' directly into a 'PhraseMap'
+readPhraseMap :: Phraselist t => t -> IO PhraseMap
+readPhraseMap plist = fmap mkMap $ readPhraselist plist
+
+-- |Read the phraselist from disk
+servePhraselist :: Phraselist t => t -> IO B.ByteString
+servePhraselist plist = B.readFile =<< phraselistPath plist
+
+-- This is the type for a Phraselist - it just needs to be provided
+-- with a filepath.
 class Phraselist t where
   phraselistPath :: t -> IO FilePath
 
@@ -91,6 +111,10 @@ data ErosList = Chat
               | WarezHacking
               | Weapons
               | Webmail
+
+------------------------------------
+-- Okay, this is the boring stuff --
+------------------------------------
 
 instance Eq ErosList where
   (==) Chat Chat = True
@@ -291,16 +315,6 @@ fromPAT (PhraseAlmostTree p s f) = Node (Phrase p s) $ map fromPAT f
 fromPhraseAlmostTree :: PAT -> PhraseTree
 fromPhraseAlmostTree = fromPAT
 
--- |Read a 'Phraselist', marshal it into a 'PhraseForest'.
-readPhraselist :: Phraselist t => t -> IO PhraseForest
-readPhraselist elist = do
-  lpath <- phraselistPath elist
-  ltext <- B.readFile lpath
-  let ljson = (eitherDecode ltext) :: Either String [PAT]
-  case ljson of
-    Left msg   -> fail msg
-    Right pats -> return $ map fromPAT pats
-
 -- |Alias for 'readPhraselist'
 loadPhraselist :: Phraselist t => t -> IO PhraseForest
 loadPhraselist = readPhraselist
@@ -320,10 +334,6 @@ readPhraseForest = readPhraselist
 -- |Alias for 'readPhraselist'
 loadPhraseForest :: Phraselist t => t -> IO PhraseForest
 loadPhraseForest = readPhraselist
-
--- |Load a 'Phraselist' directly into a 'PhraseMap'
-readPhraseMap :: Phraselist t => t -> IO PhraseMap
-readPhraseMap plist = fmap mkMap $ readPhraselist plist
 
 -- |Alias for 'readPhraseMap'
 loadPhraseMap :: Phraselist t => t -> IO PhraseMap

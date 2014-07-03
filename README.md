@@ -18,12 +18,12 @@ want to learn how to use the library. Hackage isn't terribly reliable at
 successfully building the documentation, so I also publish the documentation on
 [GitHub pages](https://pharpend.github.io/eros-haddock)
 
-# Usage - v.0.4.1.0
+# Usage - v.0.5.0.0
 
-This is a usage guide for version 0.4.1.0. There will be more up-to-date usage
+This is a usage guide for version 0.5.0.0. There will be more up-to-date usage
 guides as more versions come, hopefully.
 
-To install, add `eros >=0.4 && <0.5` to the `build-depends` field in your
+To install, add `eros >=0.5 && <0.6` to the `build-depends` field in your
 library's `.cabal` file
 
 You can get all the functions, simply by `import`ing `Text.Eros`.
@@ -40,6 +40,16 @@ needed.
 
 As far as functionality goes, this library is pretty cut & dry. I already added
 all of the features I envisioned.
+
+# Versions
+
+Eros is pretty heavy development, so the versions change quickly. I follow the
+Hackage standard of `major.minor.even-more-minor.trivial`, where `major` and
+`minor` entail API-breaking changes.
+
+In the interest of not confusing myself, I keep Eros and the Eros Client on the
+same `major.minor` version. So, a bump in the `major.minor` number doesn't
+*necessarily* mean that there's an API-breaking change.
 
 # Contact
 

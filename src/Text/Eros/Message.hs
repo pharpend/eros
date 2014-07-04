@@ -9,7 +9,7 @@
 
 -- This module deals specifically with pieces of 'Text'.
 
-module Text.Eros.Message (messageScore) where
+module Text.Eros.Message where
 
 -- Here, we have all the imports.
 import           Data.List

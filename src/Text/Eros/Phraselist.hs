@@ -62,7 +62,7 @@ readPhraselist elist = do
 
 -- |Load a 'Phraselist' directly into a 'PhraseMap'
 readPhraseMap :: Phraselist t => t -> IO PhraseMap
-readPhraseMap plist = fmap mkMap $ readPhraselist plist
+readPhraseMap plist = mkMap <$> readPhraselist plist
 
 -- |Read the phraselist from disk
 servePhraselist :: Phraselist t => t -> IO B.ByteString
@@ -111,68 +111,7 @@ data ErosList = Chat
               | WarezHacking
               | Weapons
               | Webmail
-
-------------------------------------
--- Okay, this is the boring stuff --
-------------------------------------
-
-instance Eq ErosList where
-  (==) Chat Chat = True
-  (==) Conspiracy Conspiracy = True
-  (==) DrugAdvocacy DrugAdvocacy = True
-  (==) Forums Forums = True
-  (==) Gambling Gambling = True
-  (==) Games Games = True
-  (==) Gore Gore = True
-  (==) IdTheft IdTheft = True
-  (==) IllegalDrugs IllegalDrugs = True
-  (==) Intolerance Intolerance = True
-  (==) LegalDrugs LegalDrugs = True
-  (==) Malware Malware = True
-  (==) Music Music = True
-  (==) News News = True
-  (==) Nudism Nudism = True
-  (==) Peer2Peer Peer2Peer = True
-  (==) Personals Personals = True
-  (==) Pornography Pornography = True
-  (==) Proxies Proxies = True
-  (==) SecretSocieties SecretSocieties = True
-  (==) SelfLabeling SelfLabeling = True
-  (==) Sport Sport = True
-  (==) Translation Translation = True
-  (==) UpstreamFilter UpstreamFilter = True
-  (==) Violence Violence = True
-  (==) WarezHacking WarezHacking = True
-  (==) Weapons Weapons = True
-  (==) Webmail Webmail = True
-  (==) Chat _ = False
-  (==) Conspiracy _ = False
-  (==) DrugAdvocacy _ = False
-  (==) Forums _ = False
-  (==) Gambling _ = False
-  (==) Games _ = False
-  (==) Gore _ = False
-  (==) IdTheft _ = False
-  (==) IllegalDrugs _ = False
-  (==) Intolerance _ = False
-  (==) LegalDrugs _ = False
-  (==) Malware _ = False
-  (==) Music _ = False
-  (==) News _ = False
-  (==) Nudism _ = False
-  (==) Peer2Peer _ = False
-  (==) Personals _ = False
-  (==) Pornography _ = False
-  (==) Proxies _ = False
-  (==) SecretSocieties _ = False
-  (==) SelfLabeling _ = False
-  (==) Sport _ = False
-  (==) Translation _ = False
-  (==) UpstreamFilter _ = False
-  (==) Violence _ = False
-  (==) WarezHacking _ = False
-  (==) Weapons _ = False
-  (==) Webmail _ = False
+  deriving (Eq)
 
 -- |A list of phraselists we provide.
 erosLists :: [ErosList]

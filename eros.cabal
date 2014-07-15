@@ -1,5 +1,5 @@
 name:                eros
-version:             0.5.2.0
+version:             0.5.3.0
 synopsis:            A text censorship library.
 description:
   A Haskell library for censoring text, using
@@ -30,12 +30,12 @@ extra-source-files:
 
 library
   exposed-modules:
-      Text.Eros
+      Paths_eros
+    , Text.Eros
     , Text.Eros.Message
     , Text.Eros.Phrase
     , Text.Eros.Phraselist
   other-modules:
-      Paths_eros
   other-extensions:
       FlexibleInstances
     , OverloadedStrings
